@@ -5,4 +5,6 @@ acceptance tests; a milestone is done only when its tests pass in CI.
 
 ## Milestones
 
-1. (to be written by the first agent session)
+1. Arithmetic module: `calc.py` exposes `add(a, b)` and `multiply(a, b)`;
+   `test_calc.py` covers both with unittest.
+   Acceptance: `python -m unittest -q` passes.
